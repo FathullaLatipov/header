@@ -17,7 +17,7 @@ a:hover {
 .hero {
     height: 100vh;
     width: 100%;
-    background-image: url(/images/nav_img.svg);
+    background-image: url(../images/nav_img.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -984,13 +984,6 @@ ul {
         margin-top: 1%;
         color: #7A7D86;
     }
-    .dots {
-        background-image: url(/images/dots.svg);
-        mix-blend-mode: multiply;
-        background-position: left;
-        background-repeat: no-repeat;
-        z-index: 10;
-    }
     .call {
         width: 207px;
         margin-top: 6%;
@@ -1255,9 +1248,11 @@ ul {
         margin: auto;
     }
     .product1 {
+        display: grid;
         margin: auto;
+        width: 262px;
         margin-top: 4%;
-        width: 285px;
+        height: 162px;
     }
     .product2 {
         display: grid;
@@ -1292,7 +1287,8 @@ ul {
     }
     .vector3 {
         display: grid;
-        margin-top: -8%;
+        margin-top: -4%;
+        margin-left: -3%;
         position: absolute;
     }
     .build {
@@ -1391,7 +1387,7 @@ ul {
         font-weight: 500;
     }
     .idea {
-        font-size: 17px;
+        font-size: 22px;
         margin: 8%;
     }
     .moduls {
@@ -1423,3 +1419,4 @@ ul {
         /* margin-top: 10%; */
     }
 }
+/* code by FathullaLatipov */

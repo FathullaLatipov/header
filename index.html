@@ -18,20 +18,9 @@
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Website Menu #2</title>
+    <title>Oftobnur</title>
 </head>
 <style>
-    /* *
-    {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    body{
-        width: 100%;
-        height: 100%;
-    } */
-    
     .flex-container .left-flex-box img,
     .flex-container .right-flex-box img {
         width: 100%;
@@ -68,8 +57,6 @@
 </style>
 
 <body>
-
-
     <div class="site-mobile-menu site-navbar-target">
         <div class="site-mobile-menu-header">
             <div class="site-mobile-menu-close mt-3">
@@ -78,30 +65,21 @@
         </div>
         <div class="site-mobile-menu-body"></div>
     </div>
-
-
-
+    <!-- style="position: fixed;display: grid;margin: auto;" -->
     <header class="site-navbar site-navbar-target" role="banner">
-
         <div class="container">
             <div class="row align-items-center position-relative">
-
                 <div class="col-3" id="home">
                     <div class="site-logo">
                         <a href="index.html" class="font-weight-bold"><img src="./images/logo1.png" alt=""></a>
                     </div>
                 </div>
-
                 <div class="col-9  text-right">
-
-
                     <span class="d-inline-block d-lg-none"><a href="#" class="text-primary site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 text-white"></span></a>
                     </span>
-
-
                     <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                            <li class="active"><a href="#home" class="nav-link">Главная</a></li>
+                            <li><a href="#home" class="nav-link">Главная</a></li>
                             <li><a href="#about" class="nav-link">О нас</a></li>
                             <li><a href="#works" class="nav-link">Наши работы</a></li>
                             <li><a href="#products" class="nav-link">Продукция</a></li>
@@ -110,16 +88,10 @@
                         </ul>
                     </nav>
                 </div>
-
-
             </div>
         </div>
-
     </header>
-
     <div class="hero"></div>
-
-
     <div class="container best_quality" style="width: 100%;height: 100%;">
         <p class="nav_text">Лучшее качество солнечной энергии<br>
             <img src="./images/Rectangle 1.svg" class="rectangle2" alt="">
@@ -229,44 +201,32 @@
     <br>
     <br>
     <div class="container " id="works">
-        <div class="titles">
-            <p class="projects "> <img src="./images/Vector 1.svg " class="vector3" alt=" ">Наши обширные проекты <br> <img class="vector2" src="./images/Vector 2.svg " alt=" "></p>
+        <div class="titles" id="potential">
+            <p class="best_product22 ">
+                <img src="./images/Vector 1.svg " class="vector1_1" style="margin-top: -9%;" alt=" "> Наши обширные проекты
+                <img src="./images/Vector 2.svg " class="vector2_2" style="margin-top: 5%;" alt=" ">
+            </p>
         </div>
 
         <p class="build ">При производстве солнечных панелей "OftobNur " используются самые высококачественные материалы, в том числе высокоэффективные монокристаллические солнечные элементы последнего поколения с КПД более 21%.</p>
         <div id="Gallery " class="portfolio-area area-padding fix ">
-            <div class="container ">
-                <div class="row ">
 
-                </div>
-                <div class="row wesome-project-1 fix ">
-                    <!-- Start Portfolio -page -->
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-                        <ul id="portfolio-flters ">
-                            <!-- <li data-filter="* " class="filter-active "> <button class="btn btn_all">Всe</button> </li> -->
-                            <!-- <li data-filter=".filter-app ">Домашнее хозяйство</li>
-                            <li data-filter=".filter-card ">Организация</li>
-                            <li data-filter=".filter-web ">Солнечные панели</li>
-                            <li data-filter=".filter-wind ">Энергия ветра</li> -->
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-    <div class="container-fluid " style="max-width: 1490px; ">
-        <div class="row">
-            <img class="all" src="./images/work1.png " alt=" ">
-            <img class="all" src="./images/work2.png " alt=" ">
-            <img class="all" src="./images/work3.png " alt=" ">
-            <img class="all" src="./images/work4.png " alt=" ">
-            <img class="all" src="./images/work5.png " alt=" ">
-            <img class="all" src="./images/work6.png " alt=" ">
-            <img class="all" src="./images/work7.png " alt=" ">
-            <img class="all" src="./images/work9.png " alt=" ">
-            <img class="all" src="./images/work10.png " alt=" ">
-            <img class="all" src="./images/all10.svg" alt=" ">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-3">
+                <img class="all" src="./images/work5.png " alt=" ">
+            </div>
+            <div class="col-md-3">
+                <img class="all" src="./images/work2.png " alt=" ">
+            </div>
+            <div class="col-md-3">
+                <img class="all" src="./images/work3.png " alt=" ">
+            </div>
+            <div class="col-md-3">
+                <img class="all" src="./images/work4.png " alt=" ">
+            </div>
         </div>
 
     </div>
@@ -281,7 +241,7 @@
                     <p class="free ">Получите бесплатную консультацию по вашему проекту</p>
                 </div>
                 <div class="col-md-2 ">
-                    <button class="btn btn-light call ">Заказать звонок</button>
+                    <a href="#footer"><button class="btn btn-light call ">Заказать звонок</button></a>
                 </div>
             </div>
         </div>
@@ -307,49 +267,34 @@
         <div class="row  justify-content-center" style="margin-left: auto;margin: auto;">
             <div class="new3">
                 <img class="product1 " src="./images/panel1.png " alt=" ">
-                <p class="big_text ">МОНОКРИСТАЛЛ, 72 СЭ <br> (340-360 Вт) </p>
+                <p class="big_text ">МОНОКРИСТАЛЛ, 72 СЭ <br> (340-370 Вт) </p>
                 <p class="smoll_text ">Высокие показатели при низкой <br> солнечной освещенности Устойчивые<br> показатели производительности модуля <br> даже при слабом солнечном свете.</p>
                 <button type="button" class="btn price" data-toggle="modal" data-target="#exampleModalCenter">
-                    1 765 000 сум
+                   Перейти
                 </button>
                 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 style="display:grid;margin:auto;padding-left:30px" id="exampleModalLongTitle">Фотоэлектрический модуль 360Вт </h5>
+                                <h5 style="display:grid;margin:auto;padding-left:30px" id="exampleModalLongTitle">МОНОКРИСТАЛЛ, 72 СЭ (340-370 Вт)</h5>
                                 <button type="button" class="close" data-dismiss="modal" style="border-radius: 50px;" aria-label="Close">
                                  <img src="./images/remove-x.svg" style="width: 30px;"  alt="">
                                 </button>
                             </div>
                             <div class="modal-body">
                                 <div class="flex-container">
-                                    <!-- <div class="left-flex-box">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                    </div> -->
                                     <div class="right-flex-box">
                                         <img src="./images/modal1.svg" alt="image">
                                     </div>
-
                                 </div>
 
-                                <button class="btn price">1 765 000 сум</button>
+                                <button class="btn price">от 1 046 00 - 1 138 000 сум</button>
                                 <div class="container">
                                     <div class="row">
-                                        <p class="ml-5 "> мощность - от 340 - 360
-
-                                        </p>
-
+                                        <p class="ml-5 "> мощность - от 340 - 360</p>
                                         <p class="ml-5 "> Номинальное напряжение, В - от 24 - 24</p>
-
-
                                         <p class="ml-5 ">Напряжение холостого хода, В - от 46.50 - 47.02</p>
-
                                         <p class="ml-5">Номинальное напряжение при работе на нагрузке, В - от 38.20 - 39.80</p>
-
                                         <p class="ml-5">Ток короткого замыкания, А - от 9.45 - 9.65</p>
                                         <p class="ml-5">Ток при работе на нагрузке, А - от 8.90 - 9.20</p>
                                         <p class="ml-5">КПД солнечного элемента (%) - от 19.20 - 20.0</p>
@@ -376,43 +321,44 @@
                 </div>
             </div>
             <div class="new3">
-                <img class="product2 " src="./images/product- 2.svg " alt=" ">
-                <p class="big_text ">Фотоэлектрический модуль <br> 360Вт </p>
-                <p class="smoll_text ">Количество, тип, мощность <br> солнечных панелей, инверторов,<br> аккумуляторов подбираются <br> исходя из потребностей клиентов.</p>
-                <button type="button" class="btn price" data-toggle="modal" data-target="#exampleModalCenter">
-                        1 765 000 сум
+                <img class="product1 " src="./images/panel2.png " alt=" ">
+                <p class="big_text ">МОНОКРИСТАЛЛ, 60 СЭ,<br> (180 - 300 Вт) </p>
+                <p class="smoll_text ">Высокие показатели при низкой <br> солнечной освещенности Устойчивые<br> показатели производительности модуля <br> даже при слабом солнечном свете.</p>
+                <button type="button" class="btn price" data-toggle="modal" data-target="#newModalCenter">
+                      Перейти
                     </button>
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                <div class="modal fade" id="newModalCenter" tabindex="-1" role="dialog" aria-labelledby="newModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 style="display:grid;margin:auto;padding-left:30px" id="exampleModalLongTitle">Фотоэлектрический модуль 360Вт </h5>
+                                <h5 style="display:grid;margin:auto;padding-left:30px" id="newModalLongTitle">МОНОКРИСТАЛЛ, 60 СЭ (180 - 300 Вт)</h5>
                                 <button type="button" class="close" data-dismiss="modal" style="border-radius: 50px;" aria-label="Close">
                                      <img src="./images/remove-x.svg" style="width: 30px;"  alt="">
                                     </button>
                             </div>
                             <div class="modal-body">
-                                <div class="flex-container">
-                                    <div class="left-flex-box">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                    </div>
-                                    <div class="right-flex-box">
-                                        <img src="./images/modal1.svg" alt="image">
-                                    </div>
-
+                                <div class="right-flex-box">
+                                    <img src="./images/modal1.svg" style="display: grid;margin: auto;" alt="image">
                                 </div>
 
-                                <button class="btn price">1 765 000 сум</button>
-                                <div class="flex-container">
-                                    <p style="padding:5px;font-size: 14px;
-                                        line-height: 22px;
-                                        color: #7A7D86;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <!-- </div> -->
 
+                                <button class="btn price">от 554 000 - 923 000 сум</button>
+                                <div class="container">
+                                    <div class="row">
+                                        <p class="ml-5 "> мощность - от 275 - 300</p>
+                                        <p class="ml-5 "> Номинальное напряжение, В - от 18 - 18</p>
+                                        <p class="ml-5 ">Напряжение холостого хода, В - от 38.46 - 38.85</p>
+                                        <p class="ml-5">Номинальное напряжение при работе на нагрузке, В - от 31.54 - 33.15</p>
+                                        <p class="ml-5">Ток короткого замыкания, А - от 9.22 - 9.65</p>
+                                        <p class="ml-5">Ток при работе на нагрузке, А - от 8.72 - 9.10</p>
+                                        <p class="ml-5">КПД солнечного элемента (%) - от 19.20 - 20.0</p>
+                                        <p class="ml-5">Температура эксплуатации и хранения - от -40 ~ +85 °С - -40 ~ +85 °С</p>
+                                        <p class="ml-5">Класс защиты - от Ip67 - Ip67</p>
+                                        <p class="ml-5">Коннекторы- от МС4 - МС4</p>
+                                        <p class="ml-5">Габариты - 1650 х 992 х 50 мм</p>
+                                    </div>
                                 </div>
                                 <div class="flex-container">
                                     <p style="font-size: 14px;
@@ -430,323 +376,48 @@
                 </div>
             </div>
             <div class="new3">
-                <img class="product3 " src="./images/product - 3.svg " alt=" ">
-                <p class="big_text ">Фотоэлектрический модуль <br> 350Вт </p>
-                <p class="smoll_text ">Количество, тип, мощность <br> солнечных панелей, инверторов,<br> аккумуляторов подбираются <br> исходя из потребностей клиентов.</p>
-
-                <button type="button" class="btn price" data-toggle="modal" data-target="#exampleModalCenter">
-                    1 765 000 сум
+                <img class="product1 " src="./images/panel3.png" alt=" ">
+                <p class="big_text ">МОНОКРИСТАЛЛ, 36 СЭ, <br> (100-175 Вт) </p>
+                <p class="smoll_text ">Высокие показатели при низкой <br> солнечной освещенности Устойчивые<br> показатели производительности модуля <br> даже при слабом солнечном свете.</p>
+                <button type="button" class="btn price" data-toggle="modal" data-target="#endModalCenter">
+                   Перейти
                 </button>
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal fade" id="endModalCenter" tabindex="-1" role="dialog" aria-labelledby="endModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 style="display:grid;margin:auto;padding-left:30px" id="exampleModalLongTitle">Фотоэлектрический модуль 360Вт </h5>
+                                <h5 style="display:grid;margin:auto;padding-left:30px" id="endModalLongTitle">МОНОКРИСТАЛЛ, 60 СЭ (180 - 300 Вт) </h5>
                                 <button type="button" class="close" data-dismiss="modal" style="border-radius: 50px;" aria-label="Close">
                                  <img src="./images/remove-x.svg" style="width: 30px;"  alt="">
                                 </button>
                             </div>
                             <div class="modal-body">
                                 <div class="flex-container">
-                                    <div class="left-flex-box">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                    </div>
                                     <div class="right-flex-box">
-                                        <img src="./images/modal1.svg" alt="image">
+                                        <img src="./images/modal1.svg" style="display: grid;margin: auto;" alt="image">
                                     </div>
 
                                 </div>
 
-                                <button class="btn price">1 765 000 сум</button>
-                                <div class="flex-container">
-                                    <p style="padding:5px;font-size: 14px;
-                                    line-height: 22px;
-                                    color: #7A7D86;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-
+                                <button class="btn price">от 307 500 - 538 000 сум</button>
+                                <div class="container">
+                                    <div class="row">
+                                        <p class="ml-5 "> мощность - от 150 - 175</p>
+                                        <p class="ml-5 "> Номинальное напряжение, В - от 12 - 12</p>
+                                        <p class="ml-5 ">Напряжение холостого хода, В - от 22.4 - 23.0</p>
+                                        <p class="ml-5">Номинальное напряжение при работе на нагрузке, В - от 17.5 - 18.0</p>
+                                        <p class="ml-5">Ток короткого замыкания, А - от 9.05 - 9.99</p>
+                                        <p class="ml-5">Ток при работе на нагрузке, А - от 8.63 - 9.75</p>
+                                        <p class="ml-5">КПД солнечного элемента (%) - от 18 - 19.9</p>
+                                        <p class="ml-5">Температура эксплуатации и хранения - от -40 ~ +85 °С - -40 ~ +85 °С</p>
+                                        <p class="ml-5">Класс защиты - от Ip67 - Ip67</p>
+                                        <p class="ml-5">Коннекторы- от МС4 - МС4</p>
+                                        <p class="ml-5">Габариты - 1650 х 992 х 50 мм</p>
+                                    </div>
                                 </div>
                                 <div class="flex-container">
                                     <p style="font-size: 14px;
-                                    line-height: 20px;color:#7A7D86;background: #F5F5F5;"> <span style="color: #EF7922"> Warning!</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-
-
-                            </div>
-                            <div class="modal-footer">
-
-                                <button type="button" class="btn price" data-dismiss="modal">Закрыть</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="new3">
-                <img class="product4 " src="./images/product - 4.svg " alt=" ">
-                <p class="big_text ">Фотоэлектрический модуль <br> 340Вт </p>
-                <p class="smoll_text ">Количество, тип, мощность <br> солнечных панелей, инверторов,<br> аккумуляторов подбираются <br> исходя из потребностей клиентов.</p>
-                <button type="button" class="btn price" data-toggle="modal" data-target="#exampleModalCenter">
-                    1 765 000 сум
-                </button>
-
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 style="display:grid;margin:auto;padding-left:30px" id="exampleModalLongTitle">Фотоэлектрический модуль 360Вт </h5>
-                                <button type="button" class="close" data-dismiss="modal" style="border-radius: 50px;" aria-label="Close">
-                                 <img src="./images/remove-x.svg" style="width: 30px;"  alt="">
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="flex-container">
-                                    <div class="left-flex-box">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                    </div>
-                                    <div class="right-flex-box">
-                                        <img src="./images/modal1.svg" alt="image">
-                                    </div>
-
-                                </div>
-
-                                <button class="btn price">1 765 000 сум</button>
-                                <div class="flex-container">
-                                    <p style="padding:5px;font-size: 14px;
-                                    line-height: 22px;
-                                    color: #7A7D86;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-
-                                </div>
-                                <div class="flex-container">
-                                    <p style="font-size: 14px;
-                                    line-height: 20px;color:#7A7D86;background: #F5F5F5;"> <span style="color: #EF7922"> Warning!</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-
-
-                            </div>
-                            <div class="modal-footer">
-
-                                <button type="button" class="btn price" data-dismiss="modal">Закрыть</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row  justify-content-center" style="margin-left: auto;margin: auto;">
-            <div class="new3">
-                <img class="product1 " src="./images/product-1.svg " alt=" ">
-                <p class="big_text ">Фотоэлектрический модуль <br> 370Вт </p>
-                <p class="smoll_text ">Количество, тип, мощность <br> солнечных панелей, инверторов,<br> аккумуляторов подбираются <br> исходя из потребностей клиентов.</p>
-                <button type="button" class="btn price" data-toggle="modal" data-target="#exampleModalCenter">
-                    1 765 000 сум
-                </button>
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 style="display:grid;margin:auto;padding-left:30px" id="exampleModalLongTitle">Фотоэлектрический модуль 360Вт </h5>
-                                <button type="button" class="close" data-dismiss="modal" style="border-radius: 50px;" aria-label="Close">
-                                 <img src="./images/remove-x.svg" style="width: 30px;"  alt="">
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="flex-container">
-                                    <div class="left-flex-box">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                    </div>
-                                    <div class="right-flex-box">
-                                        <img src="./images/modal1.svg" alt="image">
-                                    </div>
-
-                                </div>
-
-                                <button class="btn price">1 765 000 сум</button>
-                                <div class="flex-container">
-                                    <p style="padding:5px;font-size: 14px;
-                                    line-height: 22px;
-                                    color: #7A7D86;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-
-                                </div>
-                                <div class="flex-container">
-                                    <p style="font-size: 14px;
-                                    line-height: 20px;color:#7A7D86;background: #F5F5F5;"> <span style="color: #EF7922"> Warning!</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-
-
-                            </div>
-                            <div class="modal-footer">
-
-                                <button type="button" class="btn price" data-dismiss="modal">Закрыть</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="new3">
-                <img class="product2 " src="./images/product- 2.svg " alt=" ">
-                <p class="big_text ">Фотоэлектрический модуль <br> 360Вт </p>
-                <p class="smoll_text ">Количество, тип, мощность <br> солнечных панелей, инверторов,<br> аккумуляторов подбираются <br> исходя из потребностей клиентов.</p>
-                <button type="button" class="btn price" data-toggle="modal" data-target="#exampleModalCenter">
-                        1 765 000 сум
-                    </button>
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 style="display:grid;margin:auto;padding-left:30px" id="exampleModalLongTitle">Фотоэлектрический модуль 360Вт </h5>
-                                <button type="button" class="close" data-dismiss="modal" style="border-radius: 50px;" aria-label="Close">
-                                     <img src="./images/remove-x.svg" style="width: 30px;"  alt="">
-                                    </button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="flex-container">
-                                    <div class="left-flex-box">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                    </div>
-                                    <div class="right-flex-box">
-                                        <img src="./images/modal1.svg" alt="image">
-                                    </div>
-
-                                </div>
-
-                                <button class="btn price">1 765 000 сум</button>
-                                <div class="flex-container">
-                                    <p style="padding:5px;font-size: 14px;
-                                        line-height: 22px;
-                                        color: #7A7D86;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-
-                                </div>
-                                <div class="flex-container">
-                                    <p style="font-size: 14px;
-                                        line-height: 20px;color:#7A7D86;background: #F5F5F5;"> <span style="color: #EF7922"> Warning!</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-
-
-                            </div>
-                            <div class="modal-footer">
-
-                                <button type="button" class="btn price" data-dismiss="modal">Закрыть</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="new3">
-                <img class="product3 " src="./images/product - 3.svg " alt=" ">
-                <p class="big_text ">Фотоэлектрический модуль <br> 350Вт </p>
-                <p class="smoll_text ">Количество, тип, мощность <br> солнечных панелей, инверторов,<br> аккумуляторов подбираются <br> исходя из потребностей клиентов.</p>
-
-                <button type="button" class="btn price" data-toggle="modal" data-target="#exampleModalCenter">
-                    1 765 000 сум
-                </button>
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 style="display:grid;margin:auto;padding-left:30px" id="exampleModalLongTitle">Фотоэлектрический модуль 360Вт </h5>
-                                <button type="button" class="close" data-dismiss="modal" style="border-radius: 50px;" aria-label="Close">
-                                 <img src="./images/remove-x.svg" style="width: 30px;"  alt="">
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="flex-container">
-                                    <div class="left-flex-box">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                    </div>
-                                    <div class="right-flex-box">
-                                        <img src="./images/modal1.svg" alt="image">
-                                    </div>
-
-                                </div>
-
-                                <button class="btn price">1 765 000 сум</button>
-                                <div class="flex-container">
-                                    <p style="padding:5px;font-size: 14px;
-                                    line-height: 22px;
-                                    color: #7A7D86;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-
-                                </div>
-                                <div class="flex-container">
-                                    <p style="font-size: 14px;
-                                    line-height: 20px;color:#7A7D86;background: #F5F5F5;"> <span style="color: #EF7922"> Warning!</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-
-
-                            </div>
-                            <div class="modal-footer">
-
-                                <button type="button" class="btn price" data-dismiss="modal">Закрыть</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="new3">
-                <img class="product4 " src="./images/product - 4.svg " alt=" ">
-                <p class="big_text ">Фотоэлектрический модуль <br> 340Вт </p>
-                <p class="smoll_text ">Количество, тип, мощность <br> солнечных панелей, инверторов,<br> аккумуляторов подбираются <br> исходя из потребностей клиентов.</p>
-                <button type="button" class="btn price" data-toggle="modal" data-target="#exampleModalCenter">
-                    1 765 000 сум
-                </button>
-
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 style="display:grid;margin:auto;padding-left:30px" id="exampleModalLongTitle">Фотоэлектрический модуль 360Вт </h5>
-                                <button type="button" class="close" data-dismiss="modal" style="border-radius: 50px;" aria-label="Close">
-                                 <img src="./images/remove-x.svg" style="width: 30px;"  alt="">
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="flex-container">
-                                    <div class="left-flex-box">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                        <img src="./images/modal1.svg" alt="image">
-                                    </div>
-                                    <div class="right-flex-box">
-                                        <img src="./images/modal1.svg" alt="image">
-                                    </div>
-
-                                </div>
-
-                                <button class="btn price">1 765 000 сум</button>
-                                <div class="flex-container">
-                                    <p style="padding:5px;font-size: 14px;
-                                    line-height: 22px;
-                                    color: #7A7D86;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-
-                                </div>
-                                <div class="flex-container">
-                                    <p style="font-size: 14px;
-                                    line-height: 20px;color:#7A7D86;background: #F5F5F5;"> <span style="color: #EF7922"> Warning!</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                    line-height: 20px;color:#7A7D86;background: #F5F5F5;"> <span style="color: #EF7922"> </span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                 </div>
 
 
@@ -765,7 +436,7 @@
         <div class="titles" id="potential">
             <p class="best_product22 ">
                 <img src="./images/Vector 1.svg " class="vector1_1" style="margin-top: -9%;" alt=" "> Наши Возможности
-                <img src="./images/Vector 2.svg " class="vector2_2" style="" alt=" ">
+                <img src="./images/Vector 2.svg " class="vector2_2" alt=" ">
             </p>
         </div>
 
@@ -806,12 +477,12 @@
                 </div>
                 <div class="col-md-3" style="    margin: auto;
                 display: grid;">
-                    <a type="button" data-toggle="modal" data-target="#exampleModalLong">
+                    <a type="button" data-toggle="modal" data-target="#exampleModalLong07">
                         <img src="./images/potential2.svg" class="potential" alt=" ">
                         <p class="panels">Солнечная крыша</p>
                     </a>
                 </div>
-                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal fade" id="exampleModalLong07" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle07" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -820,14 +491,14 @@
                                            </button>
                             </div>
                             <div class="modal-body">
-                                <h5 class="text-center avto" id="exampleModalLongTitle">Автономные солнечные электростанции</h5>
+                                <h5 class="text-center avto" id="exampleModalLongTitle">Проектирование и строительство солнечных электростанций
+                                </h5>
                                 <div class="container">
                                     <p style="font-size: 16px;
                                             line-height: 26px;
                                             text-align: center;                                          
-                                            color: #7A7D86;">Предназначенные удовлетворить любые возможные потребности домовладельцев независимые установки могут быть рассчитаны для обеспечения альтернативной энергией отдельных комнат, приборов или целого жилого дома.Возможности
-                                        вырабатывания электричества с помощью солнечных лучей можно назвать безграничными. В зависимости от используемого количества фотоэлектрических модулей, небольшая станция может обеспечить мощность 0.5 кВт, которой
-                                        хватит для работы нескольких приборов, или 6 кВт, чего в условиях Узбекистана будет вполне достаточно для освещения и функционирования всей техники просторного дома</p>
+                                            color: #7A7D86;">«OftobNur" предлагает полный спектр услуг в сфере солнечной энергетики, которые представляют собой проектирование, строительство сетевых (On-Grid) и автономных (Off-Grid) солнечных электростанций мощностью от 1 МВт
+                                        до 1 ГВт.</p>
                                 </div>
                             </div>
                             <div class="modal-footer">
@@ -838,12 +509,12 @@
                 </div>
                 <div class="col-md-3" style="    margin: auto;
                 display: grid;">
-                    <a type="button" data-toggle="modal" data-target="#exampleModalLong">
+                    <a type="button" data-toggle="modal" data-target="#exampleModalLong01">
                         <img src="./images/potential3.svg" class="potential" alt=" ">
                         <p class="panels">Станции сотовых операторов</p>
                     </a>
 
-                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal fade" id="exampleModalLong01" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle01" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -852,14 +523,15 @@
                                                </button>
                                 </div>
                                 <div class="modal-body">
-                                    <h5 class="text-center avto" id="exampleModalLongTitle">Автономные солнеaе электростанции</h5>
+                                    <h5 class="text-center avto" id="exampleModalLongTitle">Солнечная станция для базовых станций сотовых операторов</h5>
                                     <div class="container">
                                         <p style="font-size: 16px;
                                                 line-height: 26px;
                                                 text-align: center;                                          
-                                                color: #7A7D86;">Предназначенные удовлетворить любые возможные потребности домовладельцев независимые установки могут быть рассчитаны для обеспечения альтернативной энергией отдельных комнат, приборов или целого жилого дома.Возможности
-                                            вырабатывания электричества с помощью солнечных лучей можно назвать безграничными. В зависимости от используемого количества фотоэлектрических модулей, небольшая станция может обеспечить мощность 0.5 кВт, которой
-                                            хватит для работы нескольких приборов, или 6 кВт, чего в условиях Узбекистана будет вполне достаточно для освещения и функционирования всей техники просторного дома</p>
+                                                color: #7A7D86;">Идея использовать солнечные батареи и другие источники природного питания для базовых станций очень привлекательна. Не надо думать о питании, не надо ездить на место, можно ставить станции хоть в горах, хоть на
+                                            платформах. Мощность солнечных панелей на каждой из станций составляет в пике более 10 КВт. Этого достаточно, чтобы обеспечить энергоснабжение базовой станции. Система состоит из панелей с фотоэлектрическими
+                                            элементами, контроллера солнечной батареи, аккумуляторных батарей. 20
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -871,12 +543,12 @@
                 </div>
                 <div class="col-md-3" style="    margin: auto;
                 display: grid;">
-                    <a type="button" data-toggle="modal" data-target="#exampleModalLong">
+                    <a type="button" data-toggle="modal" data-target="#exampleModalLong08">
                         <img src="./images/potential4.svg" class="potential" alt=" ">
                         <p class="panels">Панели для нужд военных</p>
                     </a>
 
-                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal fade" id="exampleModalLong08" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle08" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -885,14 +557,12 @@
                                                </button>
                                 </div>
                                 <div class="modal-body">
-                                    <h5 class="text-center avto" id="exampleModalLongTitle">Автономные солнеaе электростанции</h5>
+                                    <h5 class="text-center avto" id="exampleModalLongTitle">Мобильные солнечные энергоустановки для нужд военных, служб спасения и органов внутренних дел</h5>
                                     <div class="container">
                                         <p style="font-size: 16px;
                                                 line-height: 26px;
                                                 text-align: center;                                          
-                                                color: #7A7D86;">Предназначенные удовлетворить любые возможные потребности домовладельцев независимые установки могут быть рассчитаны для обеспечения альтернативной энергией отдельных комнат, приборов или целого жилого дома.Возможности
-                                            вырабатывания электричества с помощью солнечных лучей можно назвать безграничными. В зависимости от используемого количества фотоэлектрических модулей, небольшая станция может обеспечить мощность 0.5 кВт, которой
-                                            хватит для работы нескольких приборов, или 6 кВт, чего в условиях Узбекистана будет вполне достаточно для освещения и функционирования всей техники просторного дома</p>
+                                                color: #7A7D86;">«OftobNur» предлагает также и мобильные фотоэлектрические энергоустановки мощностью от 0,5 кВт до 10 кВт для нужд военных, служб спасения, правоохранительных и других военизированных структур.</p>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -904,12 +574,12 @@
                 </div>
                 <div class="col-md-3" style="margin-top: 4px;     margin: auto;
                 display: grid;">
-                    <a type="button" data-toggle="modal" data-target="#exampleModalLong">
+                    <a type="button" data-toggle="modal" data-target="#exampleModalLong04">
                         <img src="./images/potential5.svg" class="potential" alt=" ">
                         <p class="panels">Солнечные парковки</p>
                     </a>
 
-                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal fade" id="exampleModalLong04" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle04" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -918,14 +588,14 @@
                                                </button>
                                 </div>
                                 <div class="modal-body">
-                                    <h5 class="text-center avto" id="exampleModalLongTitle">Автономные солнеaе электростанции</h5>
+                                    <h5 class="text-center avto" id="exampleModalLongTitle">Солнечные парковки для зарядки электромобилей</h5>
                                     <div class="container">
                                         <p style="font-size: 16px;
                                                 line-height: 26px;
                                                 text-align: center;                                          
-                                                color: #7A7D86;">Предназначенные удовлетворить любые возможные потребности домовладельцев независимые установки могут быть рассчитаны для обеспечения альтернативной энергией отдельных комнат, приборов или целого жилого дома.Возможности
-                                            вырабатывания электричества с помощью солнечных лучей можно назвать безграничными. В зависимости от используемого количества фотоэлектрических модулей, небольшая станция может обеспечить мощность 0.5 кВт, которой
-                                            хватит для работы нескольких приборов, или 6 кВт, чего в условиях Узбекистана будет вполне достаточно для освещения и функционирования всей техники просторного дома</p>
+                                                color: #7A7D86;">Пока вы работаете ваш электромобиль заряжается на солнечной парковке, и после работы вы можете спокойно ехать домой, так-как у вас полностью заряжен аккумулятор, это очень удобно. Так-же это может быть выгодно большим
+                                            компаниям, нуждающимся в большом колчичестве энергии, которую они могут получать использовав парковочные территории.а
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -937,11 +607,11 @@
                 </div>
                 <div class="col-md-3" style="margin-top: 4px;     margin: auto;
                 display: grid;">
-                    <a type="button" data-toggle="modal" data-target="#exampleModalLong">
+                    <a type="button" data-toggle="modal" data-target="#exampleModalLong02">
                         <img src="./images/potential6.svg" class="potential" alt=" ">
                         <p class="panels">Прозрачные солнечные батареи</p>
                     </a>
-                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal fade" id="exampleModalLong02" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle02" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -950,14 +620,13 @@
                                                </button>
                                 </div>
                                 <div class="modal-body">
-                                    <h5 class="text-center avto" id="exampleModalLongTitle">Автономные солнеaе электростанции</h5>
+                                    <h5 class="text-center avto" id="exampleModalLongTitle">Прозрачные солнечные батареи</h5>
                                     <div class="container">
                                         <p style="font-size: 16px;
                                                 line-height: 26px;
                                                 text-align: center;                                          
-                                                color: #7A7D86;">Предназначенные удовлетворить любые возможные потребности домовладельцев независимые установки могут быть рассчитаны для обеспечения альтернативной энергией отдельных комнат, приборов или целого жилого дома.Возможности
-                                            вырабатывания электричества с помощью солнечных лучей можно назвать безграничными. В зависимости от используемого количества фотоэлектрических модулей, небольшая станция может обеспечить мощность 0.5 кВт, которой
-                                            хватит для работы нескольких приборов, или 6 кВт, чего в условиях Узбекистана будет вполне достаточно для освещения и функционирования всей техники просторного дома</p>
+                                                color: #7A7D86;">Как известно, классические солнечные панели темного цвета либо синего, либо почти черного. Из-за этого они зачастую очень сильно выделяются на фоне здания, внося ощутимый диссонанс в его архитектурный стиль. Кроме
+                                            того, цветовые особенности приходится учитывать и проектировщикам при разработке современных энергоэффек- тивных зданий и малых архитектурных форм. Решение этой проблемы – прозрачные солнечные батареи для фасадов.</p>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -969,12 +638,12 @@
                 </div>
                 <div class="col-md-3" style="margin-top: 4px;     margin: auto;
                 display: grid;">
-                    <a type="button" data-toggle="modal" data-target="#exampleModalLong">
+                    <a type="button" data-toggle="modal" data-target="#exampleModalLong03">
                         <img src="./images/potential7.svg" class="potential" alt=" ">
                         <p class="panels">Для полива и орошения</p>
                     </a>
 
-                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal fade" id="exampleModalLong03" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle03" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -983,14 +652,13 @@
                                                </button>
                                 </div>
                                 <div class="modal-body">
-                                    <h5 class="text-center avto" id="exampleModalLongTitle">Автономные солнеaе электростанции</h5>
+                                    <h5 class="text-center avto" id="exampleModalLongTitle">Система автономного полива и орошения с использованием солнечной энергии</h5>
                                     <div class="container">
                                         <p style="font-size: 16px;
                                                 line-height: 26px;
                                                 text-align: center;                                          
-                                                color: #7A7D86;">Предназначенные удовлетворить любые возможные потребности домовладельцев независимые установки могут быть рассчитаны для обеспечения альтернативной энергией отдельных комнат, приборов или целого жилого дома.Возможности
-                                            вырабатывания электричества с помощью солнечных лучей можно назвать безграничными. В зависимости от используемого количества фотоэлектрических модулей, небольшая станция может обеспечить мощность 0.5 кВт, которой
-                                            хватит для работы нескольких приборов, или 6 кВт, чего в условиях Узбекистана будет вполне достаточно для освещения и функционирования всей техники просторного дома</p>
+                                                color: #7A7D86;">Система автономного полива и орошения позволяет произвести орошение сельхоз угодий водой со скважины, колодца или из открытого водоема там, где отсутствуют сети электроснабжения.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -1002,12 +670,12 @@
                 </div>
                 <div class="col-md-3" style="margin-top: 4px;     margin: auto;
                 display: grid;">
-                    <a type="button" data-toggle="modal" data-target="#exampleModalLong">
+                    <a type="button" data-toggle="modal" data-target="#exampleModalLong06">
                         <img src="./images/potential8.svg" class="potential" alt=" ">
                         <p class="panels">Уличное освещение</p>
                     </a>
 
-                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal fade" id="exampleModalLong06" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle06" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -1016,14 +684,15 @@
                                                </button>
                                 </div>
                                 <div class="modal-body">
-                                    <h5 class="text-center avto" id="exampleModalLongTitle">Автономные солнеaе электростанции</h5>
+                                    <h5 class="text-center avto" id="exampleModalLongTitle">Уличное освещение на солнечной энергии</h5>
                                     <div class="container">
                                         <p style="font-size: 16px;
                                                 line-height: 26px;
                                                 text-align: center;                                          
-                                                color: #7A7D86;">Предназначенные удовлетворить любые возможные потребности домовладельцев независимые установки могут быть рассчитаны для обеспечения альтернативной энергией отдельных комнат, приборов или целого жилого дома.Возможности
-                                            вырабатывания электричества с помощью солнечных лучей можно назвать безграничными. В зависимости от используемого количества фотоэлектрических модулей, небольшая станция может обеспечить мощность 0.5 кВт, которой
-                                            хватит для работы нескольких приборов, или 6 кВт, чего в условиях Узбекистана будет вполне достаточно для освещения и функционирования всей техники просторного дома</p>
+                                                color: #7A7D86;">Мы предлагаем уличные и промышленные LED-светильники на солнечных батареях мощностью от 40 Вт до 1000 Вт.В систему освещения входят:<br> - контроллер регулирования зарядки аккумулятора и включения-выключения системы;
+                                            <br> - светильник, работающий на светодиодах;<br> - аккумулятор для подачи электричества на светодиоды и последующее его накопление от солнечной батареи;<br> - несколько солнечных батарей;<br>- защитный шкаф
+                                            для аккумулятора и контроллера; регулируемые крепления для фотомо- дулей.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -1055,7 +724,7 @@
                                         position: absolute;
                                         margin-top: 1%;
                                         " alt=" ">
-                            <div class="container ">
+                            <div class="container " style="margin: 3%;">
                                 <span class="office " style="padding: 10px; ">Наш офис</span>
                                 <p class="maps ">Узбекистан, г.Ташкент<br> ул. Мухаммад Юсуф, 1A</p>
                             </div>
@@ -1068,7 +737,7 @@
                                         position: absolute;
                                         margin-top: 1%;
                                         margin: -2px; " alt=" ">
-                            <div class="container ">
+                            <div class="container " style="margin: 3%;">
                                 <span class="office " style="padding: 10px; ">Наши контакты</span>
                                 <p class="maps "> <a href="tel:+998712001700" style="text-decoration: none;">+998 71 200-17-00</a> <br> <a href="tel:+998974770888" style="text-decoration: none;">+998 97 477-08-88</a> </p>
                             </div>
@@ -1081,9 +750,9 @@
                                         position: absolute;
                                         margin-top: 1%;
                                         margin: -2px;" alt=" ">
-                            <div class="container ">
+                            <div class="container " style="margin: 3%;">
                                 <span class="office " style="padding: 10px; ">Электронная почта</span>
-                                <p class="maps ">Oobnur@inbox.ru
+                                <p class="maps ">Oftobnur@inbox.ru
                                 </p>
                             </div>
                         </p>
@@ -1150,7 +819,7 @@
                             <p style="color: #fff; "><img src="./images/phone3.svg " class="icons " alt=" "> +998 97 477-08-88</p>
                         </a>
 
-                        <p style="color: #fff; "> <img src="./images/mail2.svg " class="icons " alt=" "> Oobnur@inbox.ru</p>
+                        <p style="color: #fff; "> <img src="./images/mail2.svg " class="icons " alt=" "> Oftobnur@inbox.ru</p>
                         <p style="color: #fff; "> <img src="./images/map2.svg " class="icons " alt=" "> Узбекистан, г.Ташкент <br> ул. Мухаммад Юсуф, 1A</p>
                     </div>
                     <div class="col-sm-7 col-md-5 col-lg-4 ">
